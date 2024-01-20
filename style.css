@@ -1,0 +1,130 @@
+body {
+    color: rgb(0, 0, 0); 
+    background-attachment: fixed; 
+    background-repeat: repeat-x; 
+    background-size: 100%;
+    background-color: rgb(165, 238, 176);
+    
+}
+header{
+    display: flex;
+    background-color: rgb(44, 140, 108);
+    align-items: center;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+li{
+    padding: 0 20px;
+}
+.logo{
+    display: flex;
+}
+
+.egg{
+    display: flex;
+    justify-content: space-around;
+    color: blue;
+
+}
+.honey{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.img1{
+padding: 20px;
+background-color: rgb(44, 140, 108);
+text-align: center;
+border-radius: 10px;
+}
+h4{
+    text-align: center;
+    color: #ffffff;
+}
+.onas{
+    text-align: center;
+    
+}
+.onas h1{
+    font-size: 50px;
+}
+h5{
+    font-size: 20px;
+    background-color: #ffffff;
+    color: black;
+}
+span{
+    color: rgb(44, 140, 108);
+}
+.photo{
+    background-image: url(history-img-1.jpg);
+    height: 600px;
+    width: 100%;
+    opacity: 0.8;
+}
+.photo h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 100px;
+     color: rgb(255, 255, 255);
+     margin: 0;
+     text-align: center;
+     color:#ffffff!important;
+     text-shadow: 1px 0 1px #000, 
+                  0 1px 1px #000, 
+                 -1px 0 1px #000, 
+                 0 -1px 1px #000;}
+                 h1{color:#ffffff!important;
+                    text-shadow: 1px 0 1px #000, 
+                                 0 1px 1px #000, 
+                                -1px 0 1px #000, 
+                                0 -1px 1px #000;
+                 }
+
+                 p{
+                    font-size: 20px;
+                 }
+/* Стилизация подвала */
+footer {
+    width: 100%; /* Ширина подвала */
+    background-color: rgb(44, 140, 108);
+    
+  }
+  /* Стилизация контейнера */
+  .container {
+    margin: 0 auto; /* Выравнивание контейнера по центру */
+    display: flex; /* Установка типа отображения контейнера как flex(в строчку) */
+    align-items: center; /* Выравнивание элементов контейнера по вертикали */
+    justify-content: space-between; /* Распределение свободного пространства между элементами контейнера */
+    padding: 20px; /* Внутренние отступы контейнера */
+  }
+
+
+  /* Стилизация списка ссылок */
+  ul {
+    list-style: none; /* Убираем маркеры списка */
+    display: flex; /* Установка типа отображения списка как flex */
+  }
+  /* Стилизация элемента списка ссылок */
+li {
+    margin: 10px; /* Отступы элемента списка */
+  }
+
+  /* Стилизация контактной информации */
+  .contacts {
+    font-size: 18px; /* Размер шрифта контактной информации */
+    color: rgb(255, 253, 253); /* Цвет текста контактной информации */
+  }
+
+  /* Стилизация копирайта */
+  .copy {
+    font-size: 16px; /* Размер шрифта копирайта */
+    color: rgb(0, 0, 0); /* Цвет текста копирайта */
+  }
